@@ -1,0 +1,337 @@
+﻿
+@font-face {
+    font-family: 'vegur';
+    src: url(../fonts/Vegur-Light.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*Start body Styles */
+
+body {
+     position: relative; 
+    overflow-x:hidden;
+    font-family:vegur;
+    color:white;
+  	background-color:#052224;    
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+
+
+
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+    border: 0;
+}
+.navbartop{
+    padding-top:0px;
+}
+.navtopbrand {
+    margin: 15px 0 5px 0;
+    padding: 0px 0 0 30px;
+}
+#mainNavbar {
+    background-color: #052224;
+    padding: 0 0 0 35px;
+    margin: 0;
+    border-bottom: 2px solid #05B5C4;
+}
+.navbar-default .navbar-nav > li > a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #c00;
+    background-color: #05B5C4;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #ffffff;
+    background-color: #05B5C4;
+}
+
+
+
+.mobilenavbrand {
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+.mobilenavbrand img {
+    max-height: 100%;
+    background-color: #052224;
+}
+
+
+
+.carousel {
+    height: 50vh;
+}
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-caption {
+    bottom: 100px;
+}
+
+
+
+
+
+
+.homepage{
+	margin: 0px;
+}
+.aboutus {
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Images/aboutus.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: white;
+}
+.sectionhead {
+    font-size: 5vh;
+    float: left;
+    background-color: transparent;
+}
+.sectionrow
+{
+    margin-left:0px;
+    margin-bottom:15px;
+}
+
+.paraCust {
+    font-size: 17.5px;
+    text-align: justify;
+}
+
+
+.btn-primary {
+    background-color: transparent;
+    border-color: #05B5C4;
+}
+.btn.btn-default.readmore-text {
+    background-color: transparent;
+    color: #05e8ff;
+    border-color: transparent;
+    background-color: #052224;
+}
+.btn-xlg:hover,
+.btn-xlg:active,
+.btn-xlg:focus {
+    background-color: #05B5C4;
+}
+
+
+
+
+
+
+.card{
+    margin-right:20px;
+   border: 1px solid #506067;
+   margin-bottom:10px;
+}
+.card-block img{
+    width:100%;
+    height:100%;
+}
+.card_button .btn-default{
+    background-color:transparent;
+    color:#05e8ff;
+}
+.card-title{
+    font-size:25px;
+}
+
+.card-title,.card-text{
+    padding-left:5px ;
+    padding-right:5px;
+}
+
+
+#footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.address {
+    font-style: normal;
+}
+#footeraddress ul li {
+    float: left;
+    list-style-type: none;
+}
+#footeraddress ul { margin: 0; padding: 0; }
+
+.quicklink {
+    color: white;
+}
+.quicklink > ul {
+    list-style-type: none;
+    padding: 0px;
+    color: #ffffff;
+}
+.quicklink > ul > li > a {
+        color: white;
+}
+
+
+/*End body Styles */
+
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 20%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #7736c1;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+
+.errorpage
+{
+    font-size:50px;
+    color:red;
+    font-weight:bold;
+}
+
+
+
+	/* Small Devices, Tablets */
+@media only screen and (min-width: @screen-sm-min) {
+    .container {
+        padding-left: 5px;
+        padding-left: 5px;
+    }
+
+}

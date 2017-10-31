@@ -1,0 +1,8 @@
+C:\Users\arkalapparambil\Desktop\WRK\FAME\fame\fame\bin\fame.dll.config
+C:\Users\arkalapparambil\Desktop\WRK\FAME\fame\fame\bin\fame.dll
+C:\Users\arkalapparambil\Desktop\WRK\FAME\fame\fame\bin\fame.pdb
+C:\Users\arkalapparambil\Desktop\WRK\FAME\fame\fame\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\arkalapparambil\Desktop\WRK\FAME\fame\fame\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\arkalapparambil\Desktop\WRK\FAME\fame\fame\obj\Debug\fame.dll
+C:\Users\arkalapparambil\Desktop\WRK\FAME\fame\fame\obj\Debug\fame.pdb
+C:\Users\arkalapparambil\Desktop\WRK\FAME\fame\fame\obj\Debug\fame.csprojResolveAssemblyReference.cache

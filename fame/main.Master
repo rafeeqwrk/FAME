@@ -1,0 +1,466 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="fame.main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Fame Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="fame services,pro services,visa services,business setup,attestation services,unites arab emirates,uae,Dubai,gulf business setup,dubai business setup,dubai services"/>
+
+   
+    <link href="Scripts/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    
+    <link href="Styles/fame.css" rel="stylesheet" />
+
+
+ <link runat="server" rel="icon" href="Images/logo_icon.ico" type="image/ico"/>
+    
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div class="container-fluid  navbartop " style="height: 110px">
+            <div class="row">
+
+                <div class="col-sm-4  hidden-xs">
+                    <a class="navbar-brand img-responsive navtopbrand">
+                        <%--<img src="Images/logo.svg" alt="Fame Service" />--%>
+                        <embed id="embedded-image" src="Images/fame_logo.svg" type="image/svg+xml" style="height:5em" />
+                    </a>    
+                </div>
+                <div class="lg_contact_btn hidden-xs">
+                    <div class="col-sm-4" style="padding-top: 20px; padding-left: 30px;">
+
+                        <div class="" style="">
+
+                            <a class="btn btn-primary btn-xlg" href="tel:+971 50 130329" style="padding: 20px;">Call <span class="glyphicon glyphicon-earphone" style="padding-left: 10px; padding-right: 10px;"></span>+971 50 130329
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4" style="padding-top: 20px; padding-left: 0px;">
+                        <div>
+                            <a class="btn btn-primary btn-xlg" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@fameservice.com&tf=1" target="_blank" style="padding: 20px;">Email <span class="glyphicon glyphicon-envelope" style="padding-left: 10px; padding-right: 10px;"></span>info@fameservice.com
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="xs_contact_btn visible-xs hidden-sm hidden-md hidden-lg">
+                    <div class="col-sm-4" style="padding-top: 10px; padding-left: 10px;">
+
+                        <div class="" style="">
+
+                            <a class="btn btn-primary btn-xlg" href="tel:+971 50 130329" style="padding: 10px; width: 100%">Click<span class="glyphicon glyphicon-earphone" style="padding-left: 10px; padding-right: 10px;"></span>+971 50 130329
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4" style="padding-top: 10px; padding-left: 10px;">
+                        <div>
+                            <a class="btn btn-primary btn-xlg" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@fameservice.com&tf=1" target="_blank" style="padding: 10px; width: 100%;">Click<span class="glyphicon glyphicon-envelope" style="padding-left: 10px; padding-right: 10px;"></span>info@fameservice.com
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="110">
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand img-responsive mobilenavbrand visible-xs hidden-sm hidden-md hidden-lg" >
+            <img src="Images/logo_mobile.svg" alt="Fame Service" />
+        </a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="nav navbar-nav">
+          <li id="hometab" ><a href="#homepage" >HOME</a></li>
+          <li><a href="#aboutus">ABOUT US</a></li>
+             <li><a href="#services">SERVICES</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+         
+        </ul>
+      </div>
+    </div>
+
+</nav>    
+
+   
+        <div class="container888">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+        <div id="sections">
+            <section id="homepage">
+                <div class="homepage">
+                    <div id="myCarousel" class="carousel slide" data-interval="3000">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="fill" style="background-image: url('Images/business_setup.jpeg');"></div>
+                                <div class="carousel-caption">
+                                    <h1>Business Set-up</h1>
+                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Read mode...</a></p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="fill" style="background-image: url('Images/pro.jpeg');"></div>
+                                <div class="carousel-caption">
+                                    <h1 data-animation="animated bounceInLeft">PRO Services</h1>
+                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Read mode...</a></p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="fill" style="background-image: url('Images/attestation.jpeg');"></div>
+                                <div class="carousel-caption">
+                                    <h1 data-animation="animated zoomInRight">Attestation Services </h1>
+                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Read mode...</a></p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="fill" style="background-image: url('Images/visa.jpeg');"></div>
+                                <div class="carousel-caption">
+                                    <h1 data-animation="animated zoomInRight">Visa Services </h1>
+                                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Read mode...</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="icon-prev" style="font-size: 50px"></span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="icon-next" style="font-size: 50px"></span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+ 
+            <section id="aboutus">
+                <div class="container ">
+                    <div class="row text-center  ">
+                        <div class="col-sm-12">
+                            <div class="row sectionrow">
+                                <h2 class="sectionhead">About us</h2>
+                            </div>
+                            <p style="font-size: 18px; text-align: justify;">
+                                <img src="Images/aboutus.jpeg" class="img-responsive hidden-xs" style="float: right; padding-right: 15px; padding-left: 15px" width="404" height="154" />
+                                <img src="Images/aboutus.jpeg" class="img-responsive visible-xs hidden-sm hidden-md hidden-lg" style="float: right;" width="404" height="154" />
+                                Fame Castle is dubai based buiness services company.It provides visa services,attestation service,pro services business setups in united arab emirates(UAE) . currently home to more than 100 businesses, including brokers, banks, commodities exchanges, business support firms and professional services companies. Our members also include hundreds of restaurants, cafes, hotels, retail outlets, health and wellbeing providers. Whether you are interested in making new business contacts or looking for leisure ideas, get started now with our simple or advanced search.
+                more than 100 businesses,  site .This is also a  dubai based pro services test website.
+                            </p>
+                            <div style="text-align: left"><a href="business-setup.aspx" class="btn btn-default readmore-text" style="font-size: 18px; padding-left: 0px;">Read more...</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section id="services">
+                <div class="container ">
+                    <div class="row sectionrow">
+                        <h2 class="sectionhead bg-primary">Services</h2>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-sm-4 " style="padding-bottom: 10px;">
+                            <div class="card">
+                                  <div class="card-block">
+                                    <img class="img-responsive card_image" src="Images/service1.jpg" />
+                                    <h4 class="card-title">Special title treatment</h4>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content</p>
+                                    <div class="card_button"><a href="business-setup.aspx" class="btn btn-default readmore-text">Read more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 " style="padding-bottom: 10px;">
+                            <div class="card">                        
+                                <div class="card-block">
+                                    <img class="img-responsive card_image" src="Images/service2.jpg" />
+                                    <h4 class="card-title">Special title treatment</h4>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.</p>
+                                    <div class="card_button"><a href="business-setup.aspx" class="btn btn-default readmore-text">Read more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 " style="padding-bottom: 10px;">
+                            <div class="card">                                 
+                                <div class="card-block">
+                                    <img class="img-responsive card_image" src="Images/service2.jpg" />
+                                    <h4 class="card-title">Special title treatment</h4>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content</p>
+                                    <div class="card_button"><a href="business-setup.aspx" class="btn btn-default readmore-text">Read more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 " style="padding-bottom: 10px;">
+                            <div class="card">                            
+                                <div class="card-block">
+                                    <img class="img-responsive card_image" src="Images/service2.jpg" />
+                                    <h4 class="card-title">Special title treatment</h4>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.</p>
+                                    <div class="card_button"><a href="business-setup.aspx" class="btn btn-default readmore-text">Read more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4 " style="padding-bottom: 10px;">
+                            <div class="card">
+                                <div class="card-block">
+                                    <img class="img-responsive card_image" src="Images/service2.jpg" />
+                                    <h4 class="card-title">Special title treatment</h4>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.</p>
+                                    <div class="card_button"><a href="business-setup.aspx" class="btn btn-default readmore-text">Read more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4" style="padding-bottom: 10px;">
+                            <div class="card">
+                                <div class="card-block">
+                                    <img class="img-responsive card_image" src="Images/service2.jpg" />
+                                    <h4 class="card-title">Special title treatment</h4>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.</p>
+                                    <div class="card_button"><a href="business-setup.aspx" class="btn btn-default readmore-text">Read more...</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="contact">
+                <div class="container">
+                    <div class="row sectionrow sectionrow">
+                        <h2 class="sectionhead bg-primary">Contact</h2>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-sm-6">
+                            <h4 style="font-size: 20px; font-weight: bold; padding-left: 0px">Office location</h4>
+                            <div>
+                                <div class="panel panel-default">
+                                    <div class="panel-body text-center">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="http://maps.google.com/maps?q=25.2655457,55.319879&z=15&output=embed"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6" style="padding-top: 25px">
+                            <h4 style="font-size: 20px; font-weight: bold">Office Address</h4>
+                            <address>
+                                Dr. Jack Osborne<br>
+                                HTML5 Hospital,<br>
+                                Doctorville,<br>
+                                Great Britain<br>
+                                Tel: +44 (0)XXXX XXXXXX
+                            </address>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+
+
+        <footer class="navbar-default">
+
+            <div id="footer" >
+                <div class="row">
+                    <div class="container">
+                        <div class="col-sm-4 quicklink">
+                            <h4><u>Services</u></h4>
+                            <ul class="ulnavbar">
+                                <li><a href="#homepage">Home</a></li>
+                                <li><a href="#aboutus">About us</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact us</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-4 quicklink">
+                            <h4><u>Quick Links</u></h4>
+                            <ul class="ulnavbar">
+                                <li><a href="#homepage">Home</a></li>
+                                <li><a href="#aboutus">About us</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact us</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <h4><u style="color: white">Connect us</u></h4>
+                            <address id="footeraddress">
+                                <ul>
+
+                                    <li><a href="#" class="fa fa-facebook"></a></li>
+                                    <li><a href="#" class="fa fa-twitter"></a></li>
+                                    <li><a href="#" class="fa fa-google"></a></li>
+                                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                                    <li><a href="#" class="fa fa-instagram"></a></li>
+                                    <li><a href="#" class="fa fa-skype"></a></li>
+                                </ul>
+                            </address>
+                        </div>
+
+                    </div>
+                    </div>
+                <div style="position: absolute; bottom: 15px; right: 0; cursor: pointer" class="top">
+                    <img src="Images/top.png" height="50" width="50" style="border-radius: 5px" />
+                </div>
+
+            </div>
+
+        </footer>
+
+        <div class="row" style="height: 15px; color: wheat; padding-left: 15px; text-align: center; font-size: 12px; line-height: 1.2; background-color: #017C8B; margin-top: 1px;">
+            <span style="margin-bottom: 2px">Copy right under control</span>
+        </div>
+
+    </form>
+
+
+    <script src="Scripts/Jquery.3.0.js"></script>
+    <script src="Scripts/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+
+
+      <script type="text/javascript">
+
+
+          $(document).ready(function () {
+
+              $('html, body').scrollTop(0);
+
+
+              $('nav a').click(function (e) {
+
+                  e.preventDefault();
+                  navigateNavBar(this);
+
+              });
+
+              $('.ulnavbar li a').click(function (e) {
+                  e.preventDefault();
+                  navigateNavBar(this)
+              });
+
+
+              $(".navbar-nav li a").click(function (event) {
+                  $(".navbar-collapse").collapse('hide');
+              });
+
+              $(".top img").click(function () {
+                  $("html, body").animate({ scrollTop: 0 }, 1000);
+
+              });
+           
+              if (window.location.hash != "") {
+
+                  if ((window.location.hash) == ('#homepage')) {
+                      $("html, body").animate({ scrollTop: 0 }, 1000);
+                  }
+                  else {
+                      $("html, body").animate({ scrollTop: $(window.location.hash).offset().top - 90 }, 1000);
+                  }
+                  history.pushState("", document.title, window.location.pathname);
+                  return false;
+              }
+
+              function navigateNavBar(thisObj) {
+              
+                  var $href = $(thisObj).attr('href');
+                  var hostData = window.location.protocol+'//'+window.location.host;
+
+                  if ( window.location.pathname != '/') {
+                      window.location.href = hostData + $href;    
+                      return false;
+                  }
+            
+                  if (($href) == ('#homepage')) {
+                      $("html, body").animate({ scrollTop: 0 }, 1000);
+                      return false;
+                  }
+                  else {
+                      var scrltop = 0;
+
+                      if ($('.navtopbrand').is(':visible')) {
+
+                          if ($("html, body").scrollTop() < 110) {
+
+                              scrltop = 109 - 10;
+                          }
+                          else {
+                              scrltop = 49;
+                          }
+
+                          $("html, body").animate({ scrollTop: $($href).offset().top - scrltop }, 1000);
+                      }
+                      else {
+
+                          if ($("html, body").scrollTop() < 50) {
+
+                              scrltop = 290
+                          }
+                          else {
+                              scrltop = 49;
+                          }
+
+                          $("html, body").animate({ scrollTop: $($href).offset().top - scrltop }, 1000);
+
+                      }
+
+                      return false;
+                  }
+              }
+
+              if (window.location.pathname == '/') {
+                  $('#sections').show();
+              }
+              else {
+                  $('#sections').hide();
+              }
+
+          });
+
+
+</script>
+</body>
+</html>

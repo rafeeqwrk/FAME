@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\arkalapparambil\Desktop\PUBLISH\fame</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/fame.dll">
+      <publishTime>10/30/2017 12:01:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>10/18/2017 15:18:53</publishTime>
+    </File>
+    <File Include="business-setup.aspx">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Error/404.aspx">
+      <publishTime>10/30/2017 11:57:42</publishTime>
+    </File>
+    <File Include="Error/500.aspx">
+      <publishTime>10/30/2017 11:58:09</publishTime>
+    </File>
+    <File Include="Error/error.aspx">
+      <publishTime>10/30/2017 11:58:10</publishTime>
+    </File>
+    <File Include="fonts/Vegur-Bold.otf">
+      <publishTime>10/18/2017 15:20:52</publishTime>
+    </File>
+    <File Include="fonts/Vegur-Light.otf">
+      <publishTime>10/18/2017 15:20:52</publishTime>
+    </File>
+    <File Include="fonts/Vegur-Regular.otf">
+      <publishTime>10/18/2017 15:20:52</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/18/2017 15:20:52</publishTime>
+    </File>
+    <File Include="Images/aboutus.jpeg">
+      <publishTime>10/18/2017 15:20:52</publishTime>
+    </File>
+    <File Include="Images/business_setup.jpeg">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Images/fame_logo.svg">
+      <publishTime>10/30/2017 10:30:38</publishTime>
+    </File>
+    <File Include="Images/logo_icon.ico">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Images/logo_mobile.svg">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Images/pro.jpeg">
+      <publishTime>10/18/2017 15:38:47</publishTime>
+    </File>
+    <File Include="Images/service1.jpg">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Images/service2.jpg">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Images/top.png">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Images/visa.jpeg">
+      <publishTime>10/18/2017 15:42:49</publishTime>
+    </File>
+    <File Include="Images/visa1.jpeg">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="logo_icon.ico">
+      <publishTime>10/18/2017 15:20:52</publishTime>
+    </File>
+    <File Include="main.aspx">
+      <publishTime>10/18/2017 15:20:52</publishTime>
+    </File>
+    <File Include="main.Master">
+      <publishTime>10/30/2017 11:01:39</publishTime>
+    </File>
+    <File Include="maintenance.aspx">
+      <publishTime>10/30/2017 11:09:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/css/bootstrap-theme.css">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/css/bootstrap-theme.css.map">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/css/bootstrap-theme.min.css">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/css/bootstrap-theme.min.css.map">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/css/bootstrap.css">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/css/bootstrap.css.map">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/css/bootstrap.min.css">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/css/bootstrap.min.css.map">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/js/bootstrap.js">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/js/bootstrap.min.js">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-3.3.7/js/npm.js">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/Jquery.3.0.js">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/ui/jquery-ui.js">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/ui/jquery.ui.core.js">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/ui/jquery.ui.dialog.js">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/ui/jquery.ui.draggable.js">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/ui/jquery.ui.mouse.js">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/ui/jquery.ui.resizable.js">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Scripts/ui/jquery.ui.widget.js">
+      <publishTime>10/18/2017 15:20:53</publishTime>
+    </File>
+    <File Include="Styles/fame.css">
+      <publishTime>10/30/2017 12:00:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/30/2017 12:01:06</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
